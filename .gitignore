@@ -1,3 +1,11 @@
 .vagrant
 vagrant_ansible_inventory_default
 tests.pyc
+
+hosts
+roles/common/files/root_tarsnap.key
+roles/common/files/wildcard_ca.pem
+roles/common/files/wildcard_private.key
+roles/common/files/wildcard_public_cert.crt
+roles/tarsnap/files/decrypted_tarsnap.key
+vars/user.yml
